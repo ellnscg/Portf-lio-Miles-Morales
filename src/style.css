@@ -1,0 +1,193 @@
+/*estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+body{
+    background: linear-gradient(to right, #040412, #141443);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.flex{
+    display:flex;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #ff0909;
+}
+
+/* estilo do cabeçalho */
+
+header{
+  padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    
+}
+
+header a{
+    color:#9e0d0d;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #ff2200;
+    transform: scale(1.05);
+}  
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+}
+
+/*topo do site*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color:#ff0606;
+    font-size: 42px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+   color: #fff; 
+   padding: 40px;
+   border-radius: 20px;
+   margin-top: 45px;
+}
+
+.especialidades .especialidades-box:hover{
+    box-shadow: 0 0 20px #4444cc93;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+    
+}
+
+/*estilo sobre*/
+section.sobre{
+    padding: 40px 4%;
+
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color: #fff;
+
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #ff1515;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+/*estilo de projetos*/
+section.projetos{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #14144379;
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.img-proj{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 100%;
+    transition: 8s;
+    border-radius: 40px;
+}
+.img-proj:hover{
+    background-position: 100% 0%;
+}
+
+/*estilo do rodapé */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #141443c6;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+
+}
+.borda{
+    border-top: 2px solid #141443;
+}
+footer .line-footer p i{
+    color: #ca1313;
+    font-size: 20px;
+}
+footer .line-footer p a{
+    color: #fff;
+    
+}
+
